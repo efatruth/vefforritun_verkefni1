@@ -22,6 +22,5 @@ def biography():
 def pictures():
     return "<h3> velkominn til að birtast 'PICTURES!!!</h3>  <br> frá Pictures,about, biography og '"
 
-run()
-#run(host='0.0.0.0', port=os.environ.get('PORT'))
+run(host='0.0.0.0', port=argv[1])
 
